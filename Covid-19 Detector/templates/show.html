@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>COVID-19 Probabilty Detector</title>
+  </head>
+  <body class="bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="https://www.worldometers.info/coronavirus/" target="_blank">COVID-19 Probabilty Detector</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="http://127.0.0.1:5000/">Home <span class="sr-only">(current)</span></a>
+            </li>
+<!--             
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li> -->
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Doctors
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="http://164.100.47.194/Loksabha/Members/MemberBioprofile.aspx?mpsno=4776" target="_blank">Dr.Harsh Vardhan</a>
+                <a class="dropdown-item" href="https://www.researchgate.net/profile/Maria_Van_Kerkhove" target="_blank">Maria D Van Kerkhove</a>
+                <a class="dropdown-item" href="http://insaindia.res.in/detail/P19-1801" target="_blank">Professor Balram Bhargava</a>
+                <a class="dropdown-item" href="https://www.cdc.gov/about/leadership/director.htm"  target=_blank">Robert R. Redfield</a>
+                <a class="dropdown-item" href="https://www.aiims.edu/images/pdf/CV.pdf">Dr. Randeep Guleria</a>
+                
+
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="https://www.google.co.in/maps" target="_blank">Or At your Nearest Doctor/Clinic</a>
+              </div>
+            </li>
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Develepers
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item">Madhav Sharma</a>
+                <a class="dropdown-item">Paranghat Narsighnga</a>
+                <a class="dropdown-item">Md.Tahir</a>
+                <a class="dropdown-item">Umer Faaroq</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">At Sharda University</a>
+              </div>
+            </li>
+
+          </ul>
+          <!-- <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form> -->
+        </div>
+      </nav>
+
+      <div class="Container text-center text-white " >
+        <h1 class="mt-3 " >COVID-19 Probabilty Detector</h1>
+        <h3 class="mt-5 text-warning">Probabilty of COVID-19 is {{prob}} <br><br><br><br><br><br><br><br></h3>
+      </div>
+
+
+      <style>
+        .b{
+           border: 1px solid yellowgreen;
+           padding: 20px;
+        }
+      </style>
+      <div class="b text-center text-white">
+        <h5>
+        1.if your Probabilty of COVID-19 is greater than 0.5 : High Priority Patient / ASAP Consult to the doctor<br>
+        2.if your Probabilty of COVID-19 is equal to 0.5 : Mid Prior Patient / Take Precautions<br>
+        3.if your Probabilty of COVID-19 is lesser than 0.5 : Stay at Home.</h5>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
