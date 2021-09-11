@@ -1,0 +1,56 @@
+Project Name :- Automation(Virtual Assistant) 
+It's a limitlesss project......huge potential of growth this project has.
+
+Inspired from our field of study i.e AI&ML
+also from the Professional Assitants like Google assistant , siri , Alexa etc ..
+and ye slike we saw jarvis in iron man.
+
+We can't match their Perfomance , efficiency and their algos. But yes we have tried to built an assistant like them .
+
+To reduce the man power or efforts , we both have developed this automated project like Google Assistant.
+
+We have automated many tasks in our project , where we/you just need your voice to operate them and get your desried result.
+
+
+
+			
+The daily tasks we usually do as youth/student in our device
+	1.open browser , youtube
+	2.playing multimedia
+	3.open apps like whatsapp
+	4.searches on wikipedia
+	5.open visual studio code
+	6.E-mails
+	.
+	.
+	.
+	.
+	n
+		Number of tasks as per the users.
+So we have automated them , just need your command and in a moment you get your result.
+
+		Basic Libraries we used
+					import datetime
+					import pyttsx3
+					import speech_recognition as sr
+					import wikipedia
+					import webbrowser
+					import os
+					import smtplib
+					from time import sleep 
+
+
+The audio in this project is the By-default audio :- Microsoft Speech API
+				The Speech Application Programming Interface or SAPI is an API developed by Microsoft 
+				to allow the use of speech recognition and speech synthesis within Windows applications.
+
+
+To send E-mail we use smptlib package(already install in python)
+				
+				:-
+					We have to allow the less secure apps toggle of our own e-mail(used to send the mail)
+	Some apps and devices use less secure sign-in technology, which makes your account vulnerable.
+	You can turn off access for these apps, which we recommend, or turn it on if you want to use them despite the risks.
+	Google will automatically turn this setting OFF if it’s not being used
+				
+
